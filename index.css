@@ -1,0 +1,265 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 5vh;
+    background-color:#0e1a29;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* color: black; */
+    position: fixed;
+}
+
+
+.navbar .logo{
+    /* color:lightgreen; */
+    width: 20%;
+    /* background-color:lightskyblue; */
+    text-align: center;
+   
+}
+.navbar .logohover:hover{
+    color:white;
+}
+/*logo h1 tag to change logo color*/
+h6{
+    color: lime;
+    font-size: 30px;
+}
+
+/* 
+.navbar .logo span{
+    color: greenyellow;
+}
+.navbar .logo span:hover{
+    color:lightblue;
+} */
+.navbar .menu{
+    width: 45%;
+}
+
+.navbar .menu ul{
+    /* display: inline-block; */
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    font-weight: 500;
+}
+
+.navbar .menu ul li{
+    display: inline-block;
+}
+
+.navbar .menu ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color:lightsteelblue;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navbar .menu ul li:hover::after{
+    width: 100%;
+}
+
+.navbar .menu ul li a{
+    color:white;
+    display: block;
+    letter-spacing: 1px;
+}
+
+.navbar .menu ul li a:hover{
+    color:rgb(158, 177, 185);
+}
+
+
+/*         example drop down menu ------*/
+/* 
+.main{
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+}
+
+.dropdown{
+    width: 80%;
+    /* height: 200%; */
+    /* margin:0px auto;
+}
+
+.dropdown ul{
+    /* padding:0px; */
+/* 
+}
+
+.dropdown ul li{
+    float:left;
+    background-color:black;
+    color:black;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    opacity:0.6;    /* opacity use for transparent range between 1 to 10*/ 
+/* } */
+/* .dropdown ul li a{
+    padding: 8px 10px;
+    color: teal;
+    border-radius: 5px; */ 
+/* } */ 
+
+/* .dropdown ul li ul{
+    display: none;
+}
+
+.dropdown ul li:hover > ul{
+    display: block;
+}
+.dropdown ul li a:hover{
+    color:red;
+}
+
+.dropdown ul li:hover{
+    color: lightgreen;
+    opacity: 0.9;
+}
+.dropdown ul li ul li{
+    position: relative;
+}
+
+.dropdown ul li ul li ul{
+    position: absolute;
+    left: 200px;
+    top:0px;
+
+
+}
+ */
+
+
+/* start of main_section */
+
+
+/* 
+.main-section{
+    width: 100%;
+    height: 20;
+    background-color: seashell; */
+
+
+/*    
+.main{
+    width: 100%;
+    height: 100vh;    /* main-section is inside main*/
+    /* background-color: red; */
+
+
+/* main and main-section have same height ,main-section div is inside main div */
+
+.main-section{
+    width: 100%;
+    height: 100vh;
+    background-color: lightsteelblue;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* display: flex; */
+    /* /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    padding-top: 150px; */
+    
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    background-color: limegreen;
+    border-radius: 13px;
+    font-size: 20px;
+    color: white;
+    border:2px solid lightgrey;
+    transition: 0.5s;
+    
+    
+
+
+
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+/* vertical bar section*/
+.vertical-bar{
+    width: vh;
+    height: 70vh;
+    background-color:black;
+    /* background-color:whitesmoke; */
+    top:100px;
+    left:60px;
+    position: absolute;
+    
+    /* bottom: 50px; */
+
+}
+.social-icon{
+    height: 5vh;
+    /* width: 8vh; */
+    /* background-color: white; */
+    /* position: absolute; */
+    bottom: 0;
+    text-align: center;
+    /* background-color:lightyellow; */
+
+    
+}
+.social-icon .fab{
+    display: block;
+    margin: 60px 10px;
+    padding: 10px;
+    /* color:black; */
+    color: whitesmoke;
+    /* transition: 0.3s; */
+    font-size: 20px;
+
+}
+
+.social-icon .fab:hover{
+    color:red;
+    /* opacity: 0.6; */
+    transition: 0.3s;
+    
+}
+
+.about{
+    width: 100%;
+    height: 50vh;
+    background-color: greenyellow;
+}
+
+
+.skills{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(218, 213, 223);
+}
+
+.contact{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(14, 26, 41);
+}
+
